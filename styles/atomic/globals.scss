@@ -1,0 +1,62 @@
+.eclipse-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.square {
+  aspect-ratio: 1 / 1;
+}
+
+.text-justify-center {
+  text-align: justify;
+  text-align-last: center;
+}
+
+.hidden-scrollbar {
+  scrollbar-width: none;
+}
+
+.bg-disabled {
+  background-color: #f5f5f5 !important;
+}
+.text-secoundry {
+  color: rgb(158, 158, 158);
+}
+
+.bg-dark {
+  background-color: rgb(39, 43, 51);
+}
+
+.bg-secoundry {
+  background-color: rgb(60, 62, 68);
+}
+
+.h-screen {
+  height: 100vh;
+}
+.w-screen {
+  width: 100vw;
+}
+
+.radius-r-sm {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.radius-l-sm {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.radius-l-none {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.radius-r-none {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+// ddefualt margin dataPicker
+.MuiStack-root {
+  padding: 0 !important;
+}

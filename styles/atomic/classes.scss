@@ -1,0 +1,311 @@
+$classes: (
+  "display": (
+    "has-media-query": true,
+    "prefix": "d",
+    "props": (
+      block,
+      inline-block,
+      inline-flex,
+      inline-grid,
+      list-item,
+      none,
+      table,
+      inline,
+      flex,
+      grid,
+    ),
+  ),
+  "text-align": (
+    "has-media-query": true,
+    "prefix": "text",
+    "props": (
+      left,
+      right,
+      center,
+      start,
+      revert,
+      justify,
+    ),
+  ),
+  "justify-content": (
+    "has-media-query": true,
+    "prefix": "justify",
+    "props": (
+      "center": center,
+      "between": space-between,
+      "around": space-around,
+      "evenly": space-evenly,
+      "start": flex-start,
+      "end": flex-end,
+    ),
+  ),
+  "align-items": (
+    "has-media-query": true,
+    "prefix": (
+      align-items,
+      align,
+    ),
+    "props": (
+      "center": center,
+      "between": space-between,
+      "around": space-around,
+      "evenly": space-evenly,
+      "start": flex-start,
+      "end": flex-end,
+      "stretch": stretch,
+      "baseline": baseline,
+    ),
+  ),
+  "justify-items": (
+    "has-media-query": true,
+    "prefix": "justify-items",
+    "props": (
+      "center": center,
+      "between": space-between,
+      "around": space-around,
+      "evenly": space-evenly,
+      "start": flex-start,
+      "end": flex-end,
+    ),
+  ),
+  "align-content": (
+    "has-media-query": true,
+    "prefix": "align-content",
+    "props": (
+      "center": center,
+      "between": space-between,
+      "around": space-around,
+      "evenly": space-evenly,
+      "start": flex-start,
+      "end": flex-end,
+    ),
+  ),
+  "align-self": (
+    "has-media-query": true,
+    "prefix": "align-self",
+    "props": (
+      "center": center,
+      "start": flex-start,
+      "end": flex-end,
+    ),
+  ),
+  "flex-basis": (
+    "has-media-query": true,
+    "prefix": "f-basis",
+    "props": (
+      auto,
+      initial,
+      inherit,
+    ),
+  ),
+  "flex-direction": (
+    "has-media-query": true,
+    "prefix": "flex",
+    "props": (
+      row,
+      row-reverse,
+      column,
+      column-reverse,
+      initial,
+      inherit,
+    ),
+  ),
+  "flex-grow": (
+    "has-media-query": true,
+    "prefix": (
+      f-grow,
+      grow,
+    ),
+    "props": (
+      initial,
+      inherit,
+      0,
+      1,
+      2,
+      3,
+    ),
+  ),
+  "flex-shrink": (
+    "has-media-query": true,
+    "prefix": (
+      f-shrink,
+      shrink,
+    ),
+    "props": (
+      initial,
+      inherit,
+      0,
+      1,
+      2,
+      3,
+    ),
+  ),
+  "flex-wrap": (
+    "has-media-query": true,
+    "prefix": (
+      f-wrap,
+      wrap,
+    ),
+    "props": (
+      nowrap,
+      wrap,
+      wrap-reverse,
+      initial,
+      inherit,
+    ),
+  ),
+  "position": (
+    "prefix": "pos",
+    "props": (
+      absolute,
+      relative,
+      fixed,
+      static,
+      sticky,
+      initial,
+      inherit,
+      unset,
+    ),
+  ),
+  // 'position': (
+  //   'props': (
+  //     absolute,
+  //     relative,
+  //     fixed,
+  //     static,
+  //     sticky,
+  //     initial,
+  //     inherit,
+  //     unset,
+  //   ),
+  // ),
+  "flex":
+    (
+      "prefix": "flex",
+      "has-media-query": true,
+      "props": (
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+      ),
+    ),
+  "order": (
+    "prefix": "order",
+    "has-media-query": true,
+    "props": (
+      1,
+      2,
+      3,
+      4,
+      5,
+    ),
+  ),
+  "border-radius": (
+    "prefix": "radius",
+    "has-media-query": true,
+    "props": (
+      "none": 0,
+      "sm": $radius-sm,
+      "md": $radius-md,
+      "lg": $radius-lg,
+      "xl": $radius-xl,
+      "xxl": $radius-xxl,
+      "rounded": 50%,
+    ),
+  ),
+  "width": (
+    "prefix": "w",
+    "has-media-query": true,
+    "props": (
+      "25": 25%,
+      "50": 50%,
+      "75": 75%,
+      "100": 100%,
+      "max-content": max-content,
+      "fit-content": fit-content,
+    ),
+  ),
+  "max-width": (
+    "prefix": "max-w",
+    "props": (
+      "50": 50%,
+      "100": 100%,
+    ),
+  ),
+  "min-width": (
+    "prefix": "min-w",
+    "props": (
+      "50": 50%,
+      "100": 100%,
+    ),
+  ),
+  "height": (
+    "prefix": "h",
+    "has-media-query": true,
+    "props": (
+      "50": 50%,
+      "100": 100%,
+    ),
+  ),
+  "cursor": (
+    "props": (
+      pointer,
+    ),
+  ),
+  "overflow": (
+    "prefix": "overflow",
+    "has-media-query": true,
+    "props": (
+      hidden,
+      scroll,
+      auto,
+    ),
+  ),
+  "overflow-y": (
+    "prefix": "overflow-y",
+    "has-media-query": true,
+    "props": (
+      hidden,
+      scroll,
+      auto,
+    ),
+  ),
+  "overflow-x": (
+    "prefix": "overflow-x",
+    "has-media-query": true,
+    "props": (
+      hidden,
+      scroll,
+      auto,
+      visible,
+    ),
+  ),
+  "white-space": (
+    "prefix": "white-space",
+    "has-media-query": true,
+    "props": (
+      nowrap,
+    ),
+  ),
+  "z-index": (
+    "prefix": "z-index",
+    "has-media-query": true,
+    "props": (
+      0,
+      1,
+      2,
+      3,
+    ),
+  ),
+  "box-shadow": (
+    "prefix": "shadow",
+    "props": (
+      "sm": 0px 4px 14px rgba(162, 162, 162, 0.35),
+    ),
+  ),
+);
