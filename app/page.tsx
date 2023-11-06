@@ -56,9 +56,8 @@ export default function Home() {
 
         {!loading ? (
           Boolean(PublicHolidays.length) && (
-            <Tooltip title="Addds d dsjdbsjdbsjbj jdsbdjsbjdbsdd" placement="top-start">
               <CardDays PublicHolidays={PublicHolidays} />
-            </Tooltip>
+       
           )
         ) : (
           <Loading />
